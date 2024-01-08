@@ -1,0 +1,438 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* SignUp */
+
+.box{
+  border: solid #83c158;
+  background: #83c158;
+  width: 173px;
+  padding: 3px;
+  border-radius: 23px;
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  top: 84px;
+  left: 668px;
+}
+.box1{
+  border: solid#83c158;
+    background:  #83c158;
+    width: 95px;
+    padding: 7px;
+    color: white;
+    border-radius: 23px;
+}
+.box1.a{
+  background-color: #4d5056;
+  
+}
+
+.signupform{
+  width: 700px;
+  height: 440px;
+  border: 2px solid white;
+  border-radius: 44px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  top: 144px;
+  left: 420px;
+  position: absolute;
+  text-align: center;
+}
+.rotate {
+  animation: animate 1s linear;
+}
+@keyframes animate {
+  0% {
+      transform: perspective(1000px) rotateY(0deg);
+  }
+  100% {
+      transform: perspective(1000px) rotateY(180deg);
+  }
+}
+
+/* login  */
+
+.form{
+  margin: 5px;
+}
+
+.title{
+  color: #4d5056;
+  font-size: 15px;  
+  margin: 5px;
+  text-align: left;
+  margin-left: 48px;
+}
+
+.title.login{
+  margin-left: 72px;
+}
+
+input{
+  color: #4d5056;
+  font-size: 15px;
+  padding: 5px;
+  border: 2px solid #4d5056;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.input.trader{
+  margin-left: 19px;
+}
+.label{
+  margin-top: 5px;
+}
+.forgotpassword{
+  color: #4d5056;
+  font-size: 14px;
+  margin-left: 414px;
+  text-decoration: none;
+}
+
+.icon{
+  position: absolute;
+  right: 87px;
+  font-size: 23px;
+  top: 151px;
+  color: white;
+}
+
+.line{
+  margin-left: 70px;
+  margin-top: 23px;
+  padding: 5px;
+  display: flex;
+
+}
+.lineSub{
+  margin-top: 8px;
+  width: 240px;
+  height: 2px;
+  border: #3c2f2f;
+  background: #666666;
+  border-radius: 14px;
+
+}
+
+.or{
+  color: #4d5056;
+  font-size: 16px;
+}
+
+.formbtn {
+  background: #83c158;
+  font-size: 17px;
+  margin-top: 25px;
+  height: 29px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 2px;
+  width: 500;
+  border-radius: 15px;
+  width: 517px;
+}
+
+.formbtn2{
+  font-size: 17px;
+  margin-top: 25px;
+  height: 29px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 2px;
+  width: 500;
+  border-radius: 15px;
+  width: 517px;
+  background-color: #83c158;
+}
+
+.loginform{
+  padding-top: 54px;
+  width: 672px;
+  height: 359px;
+  border: 2px solid white;
+  border-radius: 44px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  top: 144px;
+  left: 420px;
+  position: absolute;
+  text-align: center;
+}
+
+/* signup */
+
+/* Farmer SignupForm */
+.farmerform{
+  padding: 39px;
+  position: relative;
+}
+/* OrganizationForm  id1 */ 
+.signupformicon
+{
+  color: #4d5056;
+  font-size: 23px;
+  position: relative;
+  top: 7px;
+  right: 33px;
+} 
+.id-box{
+  display: flex;
+  column-gap: 30px;
+  margin-left: 47px;
+}
+.inputid{
+  width: 228px;
+  color: #4d5056;
+  font-size: 15px;
+  padding: 5px;
+  border: 2px solid #4d5056;
+}
+.titleid{
+  color: #4d5056;
+  font-size: 15px;  
+  margin: 5px;
+  padding-right: 165px;
+  text-align: left;
+}
+.id1{
+  border: solid black;
+  
+}
+
+.signup-btn{
+
+  height: 38px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: -5px;
+  width: 500px;
+  border: #83c158 solid;
+  border-radius: 15px;
+  opacity: 1.5;
+  color: #4d5056;
+  background: #83c158;
+  position: absolute;
+  left: 90px;
+  top: 358px;
+}
+
+/* Navbar  */ 
+
+.Navbar{
+  background-color: #4d5056;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+.nav-container{
+  display: flex;
+}
+.logo{
+  height: 58px;
+  width: 58px;
+  margin-left: 25px;
+  margin-top: 3px;
+  border: solid white;
+  border-radius: 50%;
+}
+.logoname{
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  margin-left: 11px;
+  margin-top: 9px;
+}
+.navbtn{ 
+  margin-left: 5px;
+  margin-right: 16px;
+  margin-top: 16px;
+  height: 38px;
+  font-weight: 500;
+  padding: -5px;
+  width: 109px;
+  border: white solid;
+  border-radius: 15px;
+  column-gap: 23;
+  opacity: 1.5;
+  color: white;
+  background: #83c158;
+  border: 1px solid #4CAF50;
+  font-size: 16px;
+  cursor: pointer;
+}
+.navbtn:hover {
+  background-color: white; 
+  color: #83c158;
+}
+
+/* Home Page */
+.homepage{
+  text-align: center;
+  font-size: 36px;
+  overflow-x: hidden;
+}
+.homeimg {
+  background-image: url("homeimg.jpg");
+  width: 1920px;
+  height: 747px;
+  background-repeat: no-repeat;
+  clip-path: inset(0 76px 72px 0);
+  opacity: 0.5;
+}
+.butttonbox1{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 300px;
+  top: 390px;
+}
+.homebtn1{ 
+  margin-left: 5px;
+  margin-right: 16px;
+  margin-top: 16px;
+  height: 38px;
+  font-weight: 500;
+  padding: -5px;
+  width: 309px;
+  border: white solid;
+  border-radius: 15px;
+  column-gap: 23;
+  opacity: 1.5;
+  color: white;
+  background: #83c158;
+  border: 1px solid #4CAF50;
+  font-size: 16px;
+  cursor: pointer;
+}
+.homebtn1:hover {
+  background-color: white; 
+  color: #83c158;
+}
+.homepagebody1{
+  text-align: left;
+}
+.homepagetitle1{
+  border: solid #83c158;
+  border-radius: 5px;
+  text-align-last: center;
+  background-color: #83c158;
+  font-size: 25px;
+  color: #fff;
+  padding: 10px;
+ 
+}
+
+.homepagetitle2{
+  font-size: 16px;
+  color: #83c158;
+}
+
+.homepagedescription{
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4d5056;
+  text-align-last: left;
+}
+.footerlogo{
+  padding-top: 16px;
+  margin-left: 15px;
+  display: flex;
+}
+.footer{
+  overflow-y: hidden;
+  height: 251px;
+  background-color: #4d5056;
+  font-size: 23px;
+  color: whitesmoke;
+}
+.f0{
+  font-size: 22px;
+  padding-top: 40px;
+  display: flex;
+  text-align-last: left;
+  justify-content: space-around;
+}
+.f3{
+  margin-bottom: 3px;
+  display: flex;
+  column-gap: 15px;
+}
+.f4{
+  margin-top: 22px;
+  font-size: 15px;
+}
+
+/* Trader and Farmer */
+
+
+.traderbtn{ 
+  margin-left: 5px;
+  margin-right: 16px;
+  margin-top: 16px;
+  height: 38px;
+  font-weight: 500;
+  padding: -5px;
+  width: 109px;
+  border: white solid;
+  border-radius: 15px;
+  column-gap: 23;
+  opacity: 1.5;
+  color: white;
+  background: #83c158;
+  border: 1px solid #4CAF50;
+  font-size: 16px;
+  cursor: pointer;
+}
+.traderbtn:hover {
+  background-color: white; 
+  color: #83c158;
+}
+.traderbody{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  overflow-y: auto;
+
+  position: absolute;
+  top: 20%;
+  left: 300px;
+}
+
+.butttonbox2{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 168px;
+  top: 290px;
+}
+
+.tradertitle1{
+  border: solid #83c158;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #83c158;
+  width: 500px;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.tradertitle2{
+  width: 500px;
+  color: #83c158;
+}
+
+.tradercontent {
+  width: 500px;
+  line-height: 1.5;
+  color: #4d5056;
+}
+
